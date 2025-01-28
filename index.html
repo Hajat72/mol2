@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Homework 1</title>
+    <style>
+        /* Commenting out existing styling for li elements */
+       li {
+            list-style-type: none;
+        } 
+
+        nav {
+            display: inline-block;
+            width: 80%;
+        }
+
+        nav img {
+            width: 10%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 40% 40%;
+            justify-content: space-between;
+            align-items: center;
+            row-gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .para{
+            text-align: center;
+            background: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Skip to Main Content link -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <h1>Welcome to My Updated Site</h1>
+    </header>
+
+    <nav>
+        <img src="https://yandex-images.clstorage.net/c9LNm6431/bc46fauGH/M9fbkgkVc5UZfvFDEMuxszoa8xvEPaBvCItuZ0pBioSZHPWOf1IFXn35qmIE0cpuTLooA7xdjRCip39tnJ6EtnLqkp9FWS_0bWatMkGKyOZzMqpqtVi4fnCza15nRM7dzEXh3n4iTDsZ6OMq4WlK_5xWgN8QxEz4z_4CLNjq5LcLuyM_DeWOmSHetLNolzFnttPfC5xowNqw-29T7yxC2azJZPZykm3jLEGGhv1FVkOo4rQj7JTADDeqAgxwJ7znZ0-fHp3hWvEh0gy7FNMZy-YnV8O0rIAKNGdLox8c9iGYhQwa5iYxs6QZHgKZPfJDLHIsd2DM0BAbzoaw0INAp6uLY14pFQ5JZTaIE2AXUXcGyxe7_AwMZrA_31tPVL6ZzMloShICwU9EAR4-gXXq14Cy7KsQjChE60bucFgTtNsHF0NSEbkyyZViJMdga10TDlfzuzg4VGLw968rZ9j-OXRtzMo-_k2_xDHCfkX1HpvIYjgn7JyMSA9qsoisW1Rri4NrXjFJtuENXrDD5Achk-rDnzdwCLBCQB9XM7M8ZkVYEQwO0h6Fl3iNAlpFzRpzpKKMM-g4NGAjwu7gfKdElyPfi1IJYS5pFbKQS1xnVedOq8M7sDTARsz3XweHiGLJuO0wek4Gze8QoUK-sQ32_ySGVKfgwOSAu1aeVAiHvBsD31ceVVWK_aFSGEfUU1kDYlcrk8CE0MKwo_crf7yOuagJFN7G2mU_JIX2WgFNBqOgBnDTJHTAjPcSvpSkKxwnsx_b4mVxruXxYni30G9Jw0ofF0dcSFRGQJMv24esIuk03WR2QsYFH2Q5jkqN1Z7jSIosJ7D4_OwT5mp0VNOE7-8rj_ZV-aJNsQqgf-Bblf8Gb0-XtDQEkiQPy0_DmEqNIHUIQmq-sZt4uQ76KQmC80T6hL-gPORoi6qKsHRbnH-TG-NSHQH-aWkqILNE4yH3Dvdvj5RMpJpM-2sr74jw" alt="Site Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="grid">
+            <article>
+                <img src="https://avatars.mds.yandex.net/i?id=91185d8cc6ceb881d9dfe93053a58be00fae2c07-4078534-images-thumbs&n=13" alt="Image 1">
+                <p>Content for the first column.</p>
+            </article>
+            <article>
+                <img src="https://avatars.mds.yandex.net/i?id=91185d8cc6ceb881d9dfe93053a58be00fae2c07-4078534-images-thumbs&n=13" alt="Image 2">
+                <p>Content for the second column.</p>
+            </article>
+        </section>
+
+        <section class="flex">
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=247659f32807095002e4eb33b43960b2216579be1503a176-10504377-images-thumbs&n=13" alt="Flex Image 1">
+                <p>Flexbox item 1</p>
+            </div>
+            <div>
+                <img src="https://avatars.mds.yandex.net/i?id=247659f32807095002e4eb33b43960b2216579be1503a176-10504377-images-thumbs&n=13" alt="Flex Image 1" alt="Flex Image 2">
+                <p>Flexbox item 2</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="para">&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>
